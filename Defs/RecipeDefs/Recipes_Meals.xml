@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <RecipeDef ParentName="CookMealBase">
+        <defName>ChaosCookMealSimpleBulk</defName>
+        <label>cook simple meal x10</label>
+        <description>Cook 10 straightforward meals from one ingredient.</description>
+        <jobString>Cooking 10 simple meals.</jobString>
+        <workAmount>3000</workAmount>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+        <ingredients>
+            <li>
+            <filter>
+                <categories>
+                <li>FoodRaw</li>
+                </categories>
+            </filter>
+            <count>5.0</count>
+            </li>
+        </ingredients>
+        <products>
+            <MealSimple>10</MealSimple>
+        </products>
+        <workSkill>Cooking</workSkill>
+    </RecipeDef>
+</Defs>
