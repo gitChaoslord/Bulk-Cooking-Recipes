@@ -4,4 +4,5 @@
 # TODO  
 -redo work amount requirement  
 -make campfire only be able to make x1 pemmican,simple,fine meal (no lavish and others)  
--make pemmican recipe from x4 to x5 and add the x10
+-make pemmican recipe from x4 to x5 and add the x10  
+-same with kibble
