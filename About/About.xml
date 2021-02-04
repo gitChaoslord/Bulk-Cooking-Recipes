@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Chaoslord's Misc Tweaks</name> <!-- The name of your mod in the mod list -->
+  <name>Bulk Cooking Recipes</name> <!-- The name of your mod in the mod list -->
   <author>Chaoslord</author>
-  <packageId>Chaoslord.ChaoslordsMiscTweaks</packageId> <!-- a unique identifier for your mod. Must contain only a-z and periods, no spaces. -->
+  <packageId>Chaoslord.BulkCookingRecipes</packageId> <!-- a unique identifier for your mod. Must contain only a-z and periods, no spaces. -->
   <supportedVersions> <!-- the version(s) your mod supports -->
     <li>1.1</li>
     <li>1.2</li>
   </supportedVersions>
-  <description>This mod contains various tweaks that made my life easier. See changelog for details.</description>
+  <description>This mod alters the the current 'cook x4' recipe to x5 and adds a x10 recipe for simple,fine,lavish and packaged survival meals for Fueled and Electric Stoves.</description>
 </ModMetaData>
