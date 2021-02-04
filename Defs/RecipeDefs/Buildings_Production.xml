@@ -41,14 +41,17 @@
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
     <recipes>
       <li>CookMealSimple</li>
+      <li>CookMealSimpleBulk</li>
       <li>ChaosCookMealSimpleBulk</li>
       <li>CookMealFine</li>
-      <li>CookMealLavish</li>
-      <li>CookMealSurvival</li>
-      <li>CookMealSimpleBulk</li>
       <li>CookMealFineBulk</li>
+      <li>ChaosCookMealFineBulk</li>
+      <li>CookMealLavish</li>
       <li>CookMealLavishBulk</li>
+      <li>ChaosCookMealLavishBulk</li>
+      <li>CookMealSurvival</li>  
       <li>CookMealSurvivalBulk</li>
+      <li>ChaosCookMealSurvivalBulk</li>
       <li>Make_Pemmican</li>
       <li>Make_PemmicanBulk</li>
     </recipes>
@@ -121,14 +124,17 @@
     <surfaceType>Item</surfaceType>
     <recipes>
       <li>CookMealSimple</li>
+      <li>CookMealSimpleBulk</li>
       <li>ChaosCookMealSimpleBulk</li>
       <li>CookMealFine</li>
-      <li>CookMealLavish</li>
-      <li>CookMealSurvival</li>
-      <li>CookMealSimpleBulk</li>
       <li>CookMealFineBulk</li>
+      <li>ChaosCookMealFineBulk</li>
+      <li>CookMealLavish</li>
       <li>CookMealLavishBulk</li>
+      <li>ChaosCookMealLavishBulk</li>
+      <li>CookMealSurvival</li>  
       <li>CookMealSurvivalBulk</li>
+      <li>ChaosCookMealSurvivalBulk</li>
       <li>Make_Pemmican</li>
       <li>Make_PemmicanBulk</li>
     </recipes>

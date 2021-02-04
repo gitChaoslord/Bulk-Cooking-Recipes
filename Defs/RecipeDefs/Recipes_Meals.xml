@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+<!-- simple meal x5 -->
+    <RecipeDef ParentName="CookMealBase">
+        <defName>CookMealSimpleBulk</defName>
+        <label>cook simple meal x5</label>
+        <description>Cook 5 straightforward meals from one ingredient.</description>
+        <jobString>Cooking 5 simple meals.</jobString>
+        <workAmount>1500</workAmount>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+        <ingredients>
+            <li>
+            <filter>
+                <categories>
+                <li>FoodRaw</li>
+                </categories>
+            </filter>
+            <count>2.5</count>
+            </li>
+        </ingredients>
+        <products>
+            <MealSimple>5</MealSimple>
+        </products>
+        <skillRequirements>
+            <Cooking>6</Cooking>
+        </skillRequirements>
+    </RecipeDef>
+
+<!-- simple meal x10 -->
     <RecipeDef ParentName="CookMealBase">
         <defName>ChaosCookMealSimpleBulk</defName>
         <label>cook simple meal x10</label>
@@ -25,6 +57,245 @@
         <products>
             <MealSimple>10</MealSimple>
         </products>
-        <workSkill>Cooking</workSkill>
+        <skillRequirements>
+            <Cooking>10</Cooking>
+        </skillRequirements>
     </RecipeDef>
+
+<!-- fine meal x5 -->
+    <RecipeDef ParentName="CookMealBase">
+        <defName>CookMealFineBulk</defName>
+        <label>cook fine meal x5</label>
+        <description>Cook 5 somewhat complex meals from a combination of meat and plant ingredients.</description>
+        <jobString>Cooking 5 fine meals.</jobString>
+        <workAmount>2160</workAmount>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+        <ingredients>
+            <li>
+                <filter>
+                <categories>
+                    <li>MeatRaw</li>
+                    <li>AnimalProductRaw</li>
+                </categories>
+                </filter>
+                <count>1.25</count>
+            </li>
+            <li>
+                <filter>
+                <categories>
+                    <li>PlantFoodRaw</li>
+                </categories>
+                </filter>
+                <count>1.25</count>
+            </li>
+        </ingredients>
+        <products>
+            <MealFine>5</MealFine>
+        </products>
+        <skillRequirements>
+            <Cooking>8</Cooking>
+        </skillRequirements>
+    </RecipeDef>
+
+<!-- fine meal x10 -->
+    <RecipeDef ParentName="CookMealBase">
+        <defName>ChaosCookMealFineBulk</defName>
+        <label>cook fine meal x10</label>
+        <description>Cook 10 somewhat complex meals from a combination of meat and plant ingredients.</description>
+        <jobString>Cooking 10 fine meals.</jobString>
+        <workAmount>4320</workAmount>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+        <ingredients>
+            <li>
+                <filter>
+                <categories>
+                    <li>MeatRaw</li>
+                    <li>AnimalProductRaw</li>
+                </categories>
+                </filter>
+                <count>2.5</count>
+            </li>
+            <li>
+                <filter>
+                <categories>
+                    <li>PlantFoodRaw</li>
+                </categories>
+                </filter>
+                <count>2.5</count>
+            </li>
+        </ingredients>
+        <products>
+            <MealFine>10</MealFine>
+        </products>
+        <skillRequirements>
+            <Cooking>12</Cooking>
+        </skillRequirements>
+    </RecipeDef>
+
+<!-- lavish meal x5 -->
+    <RecipeDef ParentName="CookMealBase">
+        <defName>CookMealLavishBulk</defName>
+        <label>cook lavish meal x5</label>
+        <description>Cook 5 very complex meals from a combination of meat and plant ingredients. Much of the ingredients are wasted.</description>
+        <jobString>Cooking 5 lavish meals.</jobString>
+        <workAmount>3840</workAmount>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+        <ingredients>
+        <li>
+            <filter>
+            <categories>
+                <li>MeatRaw</li>
+                <li>AnimalProductRaw</li>
+            </categories>
+            </filter>
+            <count>2.5</count>
+        </li>
+        <li>
+            <filter>
+            <categories>
+                <li>PlantFoodRaw</li>
+            </categories>
+            </filter>
+            <count>2.5</count>
+        </li>
+        </ingredients>
+        <products>
+            <MealLavish>5</MealLavish>
+        </products>
+        <skillRequirements>
+            <Cooking>10</Cooking>
+        </skillRequirements>
+    </RecipeDef>
+    
+<!-- lavish meal x10 -->
+    <RecipeDef ParentName="CookMealBase">
+        <defName>ChaosCookMealLavishBulk</defName>
+        <label>cook lavish meal x10</label>
+        <description>Cook 10 very complex meals from a combination of meat and plant ingredients. Much of the ingredients are wasted.</description>
+        <jobString>Cooking 10 lavish meals.</jobString>
+        <workAmount>7680</workAmount>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+        <ingredients>
+            <li>
+                <filter>
+                <categories>
+                    <li>MeatRaw</li>
+                    <li>AnimalProductRaw</li>
+                </categories>
+                </filter>
+                <count>5</count>
+            </li>
+            <li>
+                <filter>
+                <categories>
+                    <li>PlantFoodRaw</li>
+                </categories>
+                </filter>
+                <count>5</count>
+            </li>
+        </ingredients>
+        <products>
+            <MealLavish>10</MealLavish>
+        </products>
+        <skillRequirements>
+            <Cooking>14</Cooking>
+        </skillRequirements>
+    </RecipeDef>
+
+    <!-- Packaged Survival meal x5-->
+    <RecipeDef ParentName="CookMealBase">
+        <defName>CookMealSurvivalBulk</defName>
+        <label>cook packaged survival meal x5</label>
+        <description>Prepare 5 packaged survival meals from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</description>
+        <jobString>Cooking 5 survival meals.</jobString>
+        <workAmount>1728</workAmount>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+        <ingredients>
+            <li>
+                <filter>
+                <categories>
+                    <li>MeatRaw</li>
+                    <li>AnimalProductRaw</li>
+                </categories>
+                </filter>
+                <count>1.50</count>
+            </li>
+            <li>
+                <filter>
+                <categories>
+                    <li>PlantFoodRaw</li>
+                </categories>
+                </filter>
+                <count>1.50</count>
+            </li>
+        </ingredients>
+        <products>
+            <MealSurvivalPack>5</MealSurvivalPack>
+        </products>
+        <skillRequirements>
+            <Cooking>10</Cooking>
+        </skillRequirements>
+        <researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
+    </RecipeDef>
+
+    <!-- Packaged Survival meal x10-->
+    <RecipeDef ParentName="CookMealBase">
+        <defName>ChaosCookMealSurvivalBulk</defName>
+        <label>cook packaged survival meal x10</label>
+        <description>Prepare 10 packaged survival meals from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</description>
+        <jobString>Cooking 10 survival meals.</jobString>
+        <workAmount>3456</workAmount>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+        <ingredients>
+            <li>
+                <filter>
+                <categories>
+                    <li>MeatRaw</li>
+                    <li>AnimalProductRaw</li>
+                </categories>
+                </filter>
+                <count>3</count>
+            </li>
+            <li>
+                <filter>
+                <categories>
+                    <li>PlantFoodRaw</li>
+                </categories>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <products>
+            <MealSurvivalPack>10</MealSurvivalPack>
+        </products>
+        <skillRequirements>
+            <Cooking>14</Cooking>
+        </skillRequirements>
+        <researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
+    </RecipeDef>
+
 </Defs>
