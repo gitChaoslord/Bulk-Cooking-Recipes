@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+<!-- Kibble x5-->
+    <RecipeDef>
+      <defName>ChaosMake_KibbleBulk</defName>
+      <label>make kibble x5</label>
+      <description>Make 5 animal kibble by combining raw meat and plants.</description>
+      <jobString>Making 5 kibble.</jobString>
+      <workAmount>2250</workAmount>
+      <workSpeedStat>CookSpeed</workSpeedStat>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_CookMeal</soundWorking>
+      <allowMixingIngredients>true</allowMixingIngredients>
+      <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+      <ingredients>
+        <li>
+          <filter>
+            <categories>
+              <li>MeatRaw</li>
+              <li>AnimalProductRaw</li>
+            </categories>
+          </filter>
+          <count>5</count>
+        </li>
+        <li>
+          <filter>
+            <categories>
+              <li>PlantFoodRaw</li>
+            </categories>
+            <thingDefs>
+              <li>Hay</li>
+            </thingDefs>
+          </filter>
+          <count>5</count>
+        </li>
+      </ingredients>
+      <products>
+        <Kibble>250</Kibble>
+      </products>
+      <fixedIngredientFilter>
+        <categories>
+          <li>FoodRaw</li>
+        </categories>
+        <thingDefs>
+          <li>Hay</li>
+        </thingDefs>
+      </fixedIngredientFilter>
+      <defaultIngredientFilter>
+        <categories>
+          <li>Foods</li>
+        </categories>
+        <disallowedCategories>
+          <li>EggsFertilized</li>
+        </disallowedCategories>
+        <disallowedThingDefs>
+          <li>InsectJelly</li>
+        </disallowedThingDefs>
+      </defaultIngredientFilter>
+      <workSkill>Cooking</workSkill>
+    </RecipeDef>
+
+<!-- Kibble x10-->
+    <RecipeDef>
+      <defName>ChaosMake_KibbleBulker</defName>
+      <label>make kibble x10</label>
+      <description>Make 10 animal kibble by combining raw meat and plants.</description>
+      <jobString>Making 10 kibble.</jobString>
+      <workAmount>4500</workAmount>
+      <workSpeedStat>CookSpeed</workSpeedStat>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_CookMeal</soundWorking>
+      <allowMixingIngredients>true</allowMixingIngredients>
+      <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+      <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+          <thingDefs>
+            <li>Hay</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      </ingredients>
+      <products>
+        <Kibble>500</Kibble>
+      </products>
+      <fixedIngredientFilter>
+        <categories>
+          <li>FoodRaw</li>
+        </categories>
+        <thingDefs>
+          <li>Hay</li>
+        </thingDefs>
+      </fixedIngredientFilter>
+      <defaultIngredientFilter>
+        <categories>
+          <li>Foods</li>
+        </categories>
+        <disallowedCategories>
+          <li>EggsFertilized</li>
+        </disallowedCategories>
+        <disallowedThingDefs>
+          <li>InsectJelly</li>
+        </disallowedThingDefs>
+      </defaultIngredientFilter>
+      <workSkill>Cooking</workSkill>
+    </RecipeDef>
+
+<!-- Pemmican x5 -->
+  <RecipeDef>
+    <defName>Make_PemmicanBulk</defName>
+    <label>make pemmican x5</label>
+    <description>Make bulk pemmican, a preserved combination of meat and plant food. It doesn't taste amazing, but lasts a long time without refrigeration.</description>
+    <jobString>Making bulk pemmican.</jobString>
+    <workAmount>3360</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>1.25</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>1.25</count>
+      </li>
+    </ingredients>
+    <products>
+      <Pemmican>80</Pemmican>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>FoodRaw</li>
+      </categories>
+      <disallowedCategories>
+        <li>AnimalProductRaw</li>
+      </disallowedCategories>
+      <specialFiltersToDisallow>
+        <li>AllowPlantFood</li>
+      </specialFiltersToDisallow>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>FoodRaw</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>Meat_Human</li>
+        <li>Meat_Megaspider</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+    <workSkill>Cooking</workSkill>
+    <researchPrerequisite>Pemmican</researchPrerequisite>
+  </RecipeDef>
+
+<!-- Pemmican x10 -->
+<RecipeDef>
+    <defName>ChaosMake_PemmicanBulk</defName>
+    <label>make pemmican x10</label>
+    <description>Make bulk pemmican, a preserved combination of meat and plant food. It doesn't taste amazing, but lasts a long time without refrigeration.</description>
+    <jobString>Making bulk pemmican.</jobString>
+    <workAmount>6720</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>2.5</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>2.5</count>
+      </li>
+    </ingredients>
+    <products>
+      <Pemmican>160</Pemmican>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>FoodRaw</li>
+      </categories>
+      <disallowedCategories>
+        <li>AnimalProductRaw</li>
+      </disallowedCategories>
+      <specialFiltersToDisallow>
+        <li>AllowPlantFood</li>
+      </specialFiltersToDisallow>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>FoodRaw</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>Meat_Human</li>
+        <li>Meat_Megaspider</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+    <workSkill>Cooking</workSkill>
+    <researchPrerequisite>Pemmican</researchPrerequisite>
+  </RecipeDef>
+
+
+
+</Defs>

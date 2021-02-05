@@ -1,7 +1,0 @@
-Added/Altered 
-Simple,Fine,Lavish,Packaged Survival meals
-x4 recipe changed to x5
-x10 recipe added
-
-TODO pemmican
-Campfire only do x1 Simple/Fine Meal/Pemmican (remove lavish,survival etc)
