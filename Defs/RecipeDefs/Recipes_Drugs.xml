@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+    <RecipeDef>
+        <defName>ChaosMakePsychiteTea</defName>
+        <label>Brew psychite tea</label>
+        <description>Brew a cup of psychite tea.</description>
+        <jobString>Brewing psychite tea</jobString>
+        <workAmount>400</workAmount>
+        <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+        <workSkill>Cooking</workSkill>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PsychoidLeaves</li>
+                    </thingDefs>
+                </filter>
+                <count>4</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>PsychoidLeaves</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <PsychiteTea>1</PsychiteTea>
+        </products>
+        <skillRequirements>
+            <Cooking>2</Cooking>
+        </skillRequirements>
+        <researchPrerequisite>PsychoidBrewing</researchPrerequisite>
+    </RecipeDef>
+
+
+
+    <RecipeDef>
+        <defName>ChaosMakePsychiteTeaBulk</defName>
+        <label>Brew psychite tea x5</label>
+        <description>Brew five cups of psychite tea.</description>
+        <jobString>Brewing psychite tea x5</jobString>
+        <workAmount>2000</workAmount>
+        <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+        <workSkill>Cooking</workSkill>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PsychoidLeaves</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>PsychoidLeaves</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <PsychiteTea>5</PsychiteTea>
+        </products>
+        <skillRequirements>
+            <Cooking>2</Cooking>
+        </skillRequirements>
+        <researchPrerequisite>PsychoidBrewing</researchPrerequisite>
+    </RecipeDef>
+
+
+    <RecipeDef>
+		<defName>ChaosMakePsychiteTeaBulker</defName>
+		<label>Brew psychite tea x10</label>
+        <description>Make ten cups of psychite tea.</description>
+		<jobString>Brewing psychite tea x10</jobString>
+		<workAmount>4000</workAmount>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<workSkill>Cooking</workSkill>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PsychoidLeaves</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>PsychoidLeaves</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<PsychiteTea>10</PsychiteTea>
+		</products>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+		<researchPrerequisite>PsychoidBrewing</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

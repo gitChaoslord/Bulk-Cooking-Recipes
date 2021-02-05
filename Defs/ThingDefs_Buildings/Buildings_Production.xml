@@ -58,6 +58,9 @@
         <li>Make_Pemmican</li>
         <li>Make_PemmicanBulk</li>
         <li>ChaosMake_PemmicanBulk</li>
+        <li>ChaosMakePsychiteTea</li>
+        <li>ChaosMakePsychiteTeaBulk</li>
+        <li>ChaosMakePsychiteTeaBulker</li>
       </recipes>
       <inspectorTabs>
         <li>ITab_Bills</li>
@@ -143,6 +146,9 @@
       <li>Make_Pemmican</li>
       <li>Make_PemmicanBulk</li>
       <li>ChaosMake_PemmicanBulk</li>
+      <li>ChaosMakePsychiteTea</li>
+      <li>ChaosMakePsychiteTeaBulk</li>
+      <li>ChaosMakePsychiteTeaBulker</li>
     </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>
