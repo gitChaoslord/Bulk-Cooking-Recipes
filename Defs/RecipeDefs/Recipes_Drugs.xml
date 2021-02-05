@@ -76,7 +76,7 @@
     <RecipeDef>
 		<defName>ChaosMakePsychiteTeaBulker</defName>
 		<label>Brew psychite tea x10</label>
-        <description>Make ten cups of psychite tea.</description>
+        <description>Brew ten cups of psychite tea.</description>
 		<jobString>Brewing psychite tea x10</jobString>
 		<workAmount>4000</workAmount>
 		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
