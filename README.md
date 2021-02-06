@@ -1,12 +1,14 @@
-# <p align="center"> Bulk Cooking Recipes </p>
+### <p align="center"> Bulk Cooking Recipes </p>
 <p align="center">A Rimworld mod that alters the base game's cooking options</p>
 <br>
-Changed bulk recipes for Meals/Pemmican/Kibble/Psychite Tea at Fueled and Electric Stoves from x4 to x5 and added recipes for x10.
-Camp fire can now only do x1 Simple Meal / Pemmican / Psychite Tea.  
+<br>
 
-### Todo
+### Current Changes
 <ul>
-  <li>redo work amount requirement for all meals</li>
-  <li>x10 recipe almost exhausts fueled stove or fails to complete if its not full 100%  </li>
-  <li>recipes for wort</li>
-</ul>
+  <li>Altered the bulk 'x4' recipe to x5 for all Meals,Pemmican,Kibble,Psychite Tea and Wort at Fueled and Electric Stoves.</li>
+  <li>Added x10 bulk recipes.</li>
+  <li>Adjusted <strong>Fueled Stove's</strong> capacity from 50 to 150.</li>
+  <li>Camp fire can only do Simple Meal,Pemmican and Psychite Tea x1</li>
+ </ul>
+ 
+If anything feels off, let me know

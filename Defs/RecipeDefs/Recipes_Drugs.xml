@@ -43,7 +43,7 @@
         <label>Brew psychite tea x5</label>
         <description>Brew five cups of psychite tea.</description>
         <jobString>Brewing psychite tea x5</jobString>
-        <workAmount>2000</workAmount>
+        <workAmount>1800</workAmount>
         <workSpeedStat>DrugCookingSpeed</workSpeedStat>
         <workSkill>Cooking</workSkill>
         <effectWorking>Cook</effectWorking>
@@ -76,9 +76,9 @@
     <RecipeDef>
 		<defName>ChaosMakePsychiteTeaBulker</defName>
 		<label>Brew psychite tea x10</label>
-        <description>Brew ten cups of psychite tea.</description>
+        <description>Make ten cups of psychite tea.</description>
 		<jobString>Brewing psychite tea x10</jobString>
-		<workAmount>4000</workAmount>
+		<workAmount>3200</workAmount>
 		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
 		<workSkill>Cooking</workSkill>
 		<effectWorking>Cook</effectWorking>

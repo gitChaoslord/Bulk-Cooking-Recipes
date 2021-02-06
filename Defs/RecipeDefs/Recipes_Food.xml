@@ -7,7 +7,7 @@
       <label>make kibble x5</label>
       <description>Make 5 animal kibble by combining raw meat and plants.</description>
       <jobString>Making 5 kibble.</jobString>
-      <workAmount>2250</workAmount>
+      <workAmount>2000</workAmount>
       <workSpeedStat>CookSpeed</workSpeedStat>
       <effectWorking>Cook</effectWorking>
       <soundWorking>Recipe_CookMeal</soundWorking>
@@ -66,7 +66,7 @@
       <label>make kibble x10</label>
       <description>Make 10 animal kibble by combining raw meat and plants.</description>
       <jobString>Making 10 kibble.</jobString>
-      <workAmount>4500</workAmount>
+      <workAmount>3600</workAmount>
       <workSpeedStat>CookSpeed</workSpeedStat>
       <effectWorking>Cook</effectWorking>
       <soundWorking>Recipe_CookMeal</soundWorking>
@@ -125,7 +125,7 @@
     <label>make pemmican x5</label>
     <description>Make bulk pemmican, a preserved combination of meat and plant food. It doesn't taste amazing, but lasts a long time without refrigeration.</description>
     <jobString>Making bulk pemmican.</jobString>
-    <workAmount>3360</workAmount>
+    <workAmount>3150</workAmount>
     <workSpeedStat>CookSpeed</workSpeedStat>
     <requiredGiverWorkType>Cooking</requiredGiverWorkType>
     <effectWorking>Cook</effectWorking>
@@ -183,7 +183,7 @@
     <label>make pemmican x10</label>
     <description>Make bulk pemmican, a preserved combination of meat and plant food. It doesn't taste amazing, but lasts a long time without refrigeration.</description>
     <jobString>Making bulk pemmican.</jobString>
-    <workAmount>6720</workAmount>
+    <workAmount>5600</workAmount>
     <workSpeedStat>CookSpeed</workSpeedStat>
     <requiredGiverWorkType>Cooking</requiredGiverWorkType>
     <effectWorking>Cook</effectWorking>

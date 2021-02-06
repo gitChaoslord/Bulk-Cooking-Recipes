@@ -156,7 +156,7 @@
     <comps>
       <li Class="CompProperties_Refuelable">
         <fuelConsumptionRate>160.0</fuelConsumptionRate>
-        <fuelCapacity>50.0</fuelCapacity>
+        <fuelCapacity>150.0</fuelCapacity>
         <fuelFilter>
           <thingDefs>
             <li>WoodLog</li>
@@ -248,4 +248,67 @@
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
   </ThingDef>
+
+  <!-- Brewery-->
+  <ThingDef ParentName="BenchBase">
+    <defName>Brewery</defName>
+    <label>brewery</label>
+    <description>A work station with all the equipment needed to mix wort for beer production. Wort must be fermented to finally become beer.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Production/TableBrewery</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,1.5)</drawSize>
+      <shadowData>
+        <volume>(2.8, 0.3, 0.54)</volume>
+        <offset>(0, 0, -0.18)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.3,0,2.7,1)</rect>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <constructEffect>ConstructWood</constructEffect>
+    <costList>
+      <WoodLog>120</WoodLog>
+      <Steel>30</Steel>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>2000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <recipes>
+      <li>Make_Wort</li>
+      <li>ChaosMake_WortBulk</li>
+      <li>ChaosMake_WortBulker</li>
+    </recipes>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>Brewing</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+
+
+
 </Defs>

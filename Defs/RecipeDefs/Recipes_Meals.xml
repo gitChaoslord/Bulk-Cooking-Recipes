@@ -6,7 +6,7 @@
         <label>cook simple meal x5</label>
         <description>Cook 5 straightforward meals from one ingredient.</description>
         <jobString>Cooking 5 simple meals.</jobString>
-        <workAmount>1500</workAmount>
+        <workAmount>1350</workAmount>
         <workSpeedStat>CookSpeed</workSpeedStat>
         <requiredGiverWorkType>Cooking</requiredGiverWorkType>
         <effectWorking>Cook</effectWorking>
@@ -37,7 +37,7 @@
         <label>cook simple meal x10</label>
         <description>Cook 10 straightforward meals from one ingredient.</description>
         <jobString>Cooking 10 simple meals.</jobString>
-        <workAmount>3000</workAmount>
+        <workAmount>2400</workAmount>
         <workSpeedStat>CookSpeed</workSpeedStat>
         <requiredGiverWorkType>Cooking</requiredGiverWorkType>
         <effectWorking>Cook</effectWorking>
@@ -68,7 +68,7 @@
         <label>cook fine meal x5</label>
         <description>Cook 5 somewhat complex meals from a combination of meat and plant ingredients.</description>
         <jobString>Cooking 5 fine meals.</jobString>
-        <workAmount>2160</workAmount>
+        <workAmount>2000</workAmount>
         <workSpeedStat>CookSpeed</workSpeedStat>
         <effectWorking>Cook</effectWorking>
         <soundWorking>Recipe_CookMeal</soundWorking>
@@ -107,7 +107,7 @@
         <label>cook fine meal x10</label>
         <description>Cook 10 somewhat complex meals from a combination of meat and plant ingredients.</description>
         <jobString>Cooking 10 fine meals.</jobString>
-        <workAmount>4320</workAmount>
+        <workAmount>3600</workAmount>
         <workSpeedStat>CookSpeed</workSpeedStat>
         <effectWorking>Cook</effectWorking>
         <soundWorking>Recipe_CookMeal</soundWorking>
@@ -146,7 +146,7 @@
         <label>cook lavish meal x5</label>
         <description>Cook 5 very complex meals from a combination of meat and plant ingredients. Much of the ingredients are wasted.</description>
         <jobString>Cooking 5 lavish meals.</jobString>
-        <workAmount>3840</workAmount>
+        <workAmount>3600</workAmount>
         <workSpeedStat>CookSpeed</workSpeedStat>
         <effectWorking>Cook</effectWorking>
         <soundWorking>Recipe_CookMeal</soundWorking>
@@ -185,7 +185,7 @@
         <label>cook lavish meal x10</label>
         <description>Cook 10 very complex meals from a combination of meat and plant ingredients. Much of the ingredients are wasted.</description>
         <jobString>Cooking 10 lavish meals.</jobString>
-        <workAmount>7680</workAmount>
+        <workAmount>6400</workAmount>
         <workSpeedStat>CookSpeed</workSpeedStat>
         <effectWorking>Cook</effectWorking>
         <soundWorking>Recipe_CookMeal</soundWorking>
@@ -224,7 +224,7 @@
         <label>cook packaged survival meal x5</label>
         <description>Prepare 5 packaged survival meals from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</description>
         <jobString>Cooking 5 survival meals.</jobString>
-        <workAmount>1728</workAmount>
+        <workAmount>1350</workAmount>
         <workSpeedStat>CookSpeed</workSpeedStat>
         <effectWorking>Cook</effectWorking>
         <soundWorking>Recipe_CookMeal</soundWorking>
@@ -264,7 +264,7 @@
         <label>cook packaged survival meal x10</label>
         <description>Prepare 10 packaged survival meals from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</description>
         <jobString>Cooking 10 survival meals.</jobString>
-        <workAmount>3456</workAmount>
+        <workAmount>2400</workAmount>
         <workSpeedStat>CookSpeed</workSpeedStat>
         <effectWorking>Cook</effectWorking>
         <soundWorking>Recipe_CookMeal</soundWorking>
